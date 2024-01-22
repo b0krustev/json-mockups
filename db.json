@@ -1,0 +1,25 @@
+{
+        data: [
+          {
+            type: "Product",
+            id: "lkajd1312",
+            attributes: {
+              icon: "icon-ui-general-map",
+              name: "Product name 1",
+              url: "https://product-url.domain.net/",
+              navigation_url: "https://product-url.domain.net/navigation.json",
+            },
+          },
+          {
+            type: "Product",
+            id: "312lkajd1",
+            attributes: {
+              icon: "icon-ui-general-preview",
+              name: "Product name 2",
+              url: "https://product-url.domain.net/",
+              navigation_url: "https://product-url-2.domain.net/navigation.json",
+            },
+          },
+        ],
+      }
+        
