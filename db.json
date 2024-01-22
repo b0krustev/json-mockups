@@ -8,7 +8,7 @@
           "icon": "icon-ui-general-map",
           "name": "Product name 1",
           "url": "https://product-url.domain.net/",
-          "navigation_url": "https://product-url.domain.net/navigation.json"
+          "navigation_url": "https://my-json-server.typicode.com/b0krustev/json-mockups/product-navigation-items"
         }
       },
       {
