@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "type": "NavigationItem",
+      "id": "rr-risk-objects",
+      "attributes": {
+        "name": "Risk Objects",
+        "url": "/risk_objects/suppliers",
+        "iscollapse": false,
+        "parent_id": "null"
+      }
+    },
+    {
+      "type": "NavigationItem",
+      "id": "rr-risk-suppliers",
+      "attributes": {
+        "name": "Suppliers",
+        "url": "/risk_objects/suppliers",
+        "iscollapse": false,
+        "parent_id": "rr-risk-objects"
+      }
+    },
+    {
+      "type": "NavigationItem",
+      "id": "rr-risk-suppliers",
+      "attributes": {
+        "name": "Supply Chains",
+        "url": "/supply_chains",
+        "iscollapse": false,
+        "parent_id": "rr-risk-objects"
+      }
+    },
+    {
+      "type": "NavigationItem",
+      "id": "rr-risk-suppliers",
+      "attributes": {
+        "name": "Customers",
+        "url": "/risk_objects/debitors",
+        "iscollapse": false,
+        "parent_id": "rr-risk-objects"
+      }
+    },
+    {
+      "type": "NavigationItem",
+      "id": "rr-risk-suppliers",
+      "attributes": {
+        "name": "Locations",
+        "url": "/risk_objects/locations",
+        "iscollapse": false,
+        "parent_id": "rr-risk-objects"
+      }
+    },
+  ]
+}
