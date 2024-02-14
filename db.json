@@ -260,56 +260,6 @@
                 "name": "User Responsibilities",
                 "is_collapse": false
             }
-        },
-        {
-            "id": "settings-data-sources",
-            "attributes": {
-                "parent_id": "settings",
-                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com/subscriptions",
-                "native_navigation": false,
-                "name": "Data Sources",
-                "is_collapse": false
-            }
-        },
-        {
-            "id": "settings-business-units",
-            "attributes": {
-                "parent_id": "settings-attribute-configuration",
-                "name": "Business Units",
-                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com/business_units",
-                "native_navigation": false,
-                "is_collapse": false
-            }
-        },
-        {
-            "id": "settings-categories",
-            "attributes": {
-                "parent_id": "settings-attribute-configuration",
-                "name": "Categories",
-                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com/material_groups",
-                "native_navigation": false,
-                "is_collapse": false
-            }
-        },
-        {
-            "id": "settings-product-groups",
-            "attributes": {
-                "parent_id": "settings-attribute-configuration",
-                "name": "Product Groups",
-                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com/product_groups",
-                "native_navigation": false,
-                "is_collapse": false
-            }
-        },
-        {
-            "id": "settings-labels",
-            "attributes": {
-                "parent_id": "settings-attribute-configuration",
-                "name": "Labels",
-                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com/labels",
-                "native_navigation": false,
-                "is_collapse": false
-            }
         }
     ]
 }
