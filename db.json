@@ -1,80 +1,315 @@
 {
-  "products": {
     "data": [
-      {
-        "type": "Product",
-        "id": "lkajd1312",
-        "attributes": {
-          "icon": "icon-ui-general-map",
-          "name": "Product name 1",
-          "url": "https://product-url.domain.net/",
-          "navigation_url": "https://my-json-server.typicode.com/b0krustev/json-mockups/product-navigation-items"
+        {
+            "id": "scrm-rr-worldmap",
+            "attributes": {
+                "parent_id": null,
+                "icon": "icon-ui-general-earth",
+                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com",
+                "native_navigation": false,
+                "name": "World Map",
+                "is_collapse": false
+            }
+        },
+        {
+            "id": "scrm-rr-analytics",
+            "attributes": {
+                "parent_id": null,
+                "icon": "icon-ui-general-metrics",
+                "url": null,
+                "native_navigation": false,
+                "name": "Analytics",
+                "is_collapse": true
+            }
+        },
+        {
+            "id": "scrm-rr-objects",
+            "attributes": {
+                "parent_id": null,
+                "icon": "icon-ui-general-index",
+                "url": null,
+                "native_navigation": false,
+                "name": "Risk Objects",
+                "is_collapse": true
+            }
+        },
+        {
+            "id": "srcm-rr-messages",
+            "attributes": {
+                "parent_id": null,
+                "icon": "icon-ui-general-notifications",
+                "url": null,
+                "native_navigation": false,
+                "name": "Messages",
+                "is_collapse": true
+            }
+        },
+        {
+            "id": "action-planner",
+            "attributes": {
+                "parent_id": null,
+                "icon": "icon-ui-general-fire-hose",
+                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com/action_plans",
+                "navigation_url": null,
+                "native_navigation": false,
+                "name": "Action Planner",
+                "is_collapse": false
+            }
+        },
+        {
+            "id": "compliance-incident-management",
+            "attributes": {
+                "parent_id": null,
+                "icon": "icon-ui-general-leaf",
+                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com/compliance_incident_management",
+                "navigation_url": null,
+                "native_navigation": false,
+                "name": "Compliance Incident Management",
+                "is_collapse": false
+            }
+        },
+        {
+            "id": "settings",
+            "attributes": {
+                "parent_id": null,
+                "icon": "icon-ui-general-settings",
+                "navigation_url": null,
+                "native_navigation": false,
+                "name": "Settings",
+                "is_collapse": true
+            }
+        },
+        {
+            "id": "scrm-rr-analytics-analytics-dashboard",
+            "attributes": {
+                "parent_id": "scrm-rr-analytics",
+                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com/dashboard",
+                "native_navigation": false,
+                "name": "Dashboard",
+                "is_collapse": false
+            }
+        },
+        {
+            "id": "scrm-rr-analytics-analytics-reports",
+            "attributes": {
+                "parent_id": "scrm-rr-analytics",
+                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com/reports",
+                "native_navigation": false,
+                "name": "Reports",
+                "is_collapse": false
+            }
+        },
+        {
+            "id": "scrm-rr-objects-risk-objects-supply-chains",
+            "attributes": {
+                "parent_id": "scrm-rr-objects",
+                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com/supply_chains",
+                "native_navigation": false,
+                "name": "Supply Chains",
+                "is_collapse": false
+            }
+        },
+        {
+            "id": "scrm-rr-objects-risk-objects-suppliers",
+            "attributes": {
+                "parent_id": "scrm-rr-objects",
+                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com/risk_object/suppliers",
+                "native_navigation": false,
+                "name": "Suppliers",
+                "is_collapse": false
+            }
+        },
+        {
+            "id": "scrm-rr-objects-risk-objects-customers",
+            "attributes": {
+                "parent_id": "scrm-rr-objects",
+                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com/risk_object/debitors",
+                "native_navigation": false,
+                "name": "Customers",
+                "is_collapse": false
+            }
+        },
+        {
+            "id": "scrm-rr-objects-risk-objects-locations",
+            "attributes": {
+                "parent_id": "scrm-rr-objects",
+                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com/risk_object/locations",
+                "native_navigation": false,
+                "name": "Locations",
+                "is_collapse": false
+            }
+        },
+        {
+            "id": "scrm-rr-objects-risk-objects-countries",
+            "attributes": {
+                "parent_id": "scrm-rr-objects",
+                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com/risk_object/countries",
+                "native_navigation": false,
+                "name": "Countries",
+                "is_collapse": false
+            }
+        },
+        {
+            "id": "scrm-rr-objects-risk-objects-own-sites",
+            "attributes": {
+                "parent_id": "scrm-rr-objects",
+                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com/risk_object/manufactures",
+                "native_navigation": false,
+                "name": "Own Sites",
+                "is_collapse": false
+            }
+        },
+        {
+            "id": "srcm-rr-messages-indicator-messages",
+            "attributes": {
+                "parent_id": "srcm-rr-messages",
+                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com/indicator_messages",
+                "native_navigation": false,
+                "name": "Indicator Messages",
+                "is_collapse": false
+            }
+        },
+        {
+            "id": "srcm-rr-messages-messages-news",
+            "attributes": {
+                "parent_id": "srcm-rr-messages",
+                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com/news",
+                "native_navigation": false,
+                "name": "News",
+                "is_collapse": false
+            }
+        },
+        {
+            "id": "settings-data-management",
+            "attributes": {
+                "parent_id": "settings",
+                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com/data_management",
+                "native_navigation": false,
+                "name": "Data Management",
+                "is_collapse": false
+            }
+        },
+        {
+            "id": "settings-scorecard",
+            "attributes": {
+                "parent_id": "settings",
+                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com/score_card_configuration",
+                "native_navigation": false,
+                "name": "Master Scorecard",
+                "is_collapse": false
+            }
+        },
+        {
+            "id": "settings-users",
+            "attributes": {
+                "parent_id": "settings",
+                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com/users",
+                "native_navigation": false,
+                "name": "Users",
+                "is_collapse": false
+            }
+        },
+        {
+            "id": "settings-attribute-configuration",
+            "attributes": {
+                "parent_id": "settings",
+                "url": null,
+                "native_navigation": false,
+                "name": "Attribute Configuration",
+                "is_collapse": true,
+                "has_sub_menu": true
+            }
+        },
+        {
+            "id": "settings-action-plan-settings",
+            "attributes": {
+                "parent_id": "settings",
+                "url": null,
+                "native_navigation": false,
+                "name": "Action Plan Settings",
+                "is_collapse": true,
+                "has_sub_menu": true
+            }
+        },
+        {
+            "id": "settings-task-assignment",
+            "attributes": {
+                "parent_id": "settings-action-plan-settings",
+                "name": "Task Assignment",
+                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com/task_config",
+                "native_navigation": false,
+                "is_collapse": false
+            }
+        },
+        {
+            "id": "settings-task-definitions",
+            "attributes": {
+                "parent_id": "settings-action-plan-settings",
+                "name": "Task Definition",
+                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com/master_task_templates",
+                "native_navigation": false,
+                "is_collapse": false
+            }
+        },
+        {
+            "id": "settings-user-responsibilities",
+            "attributes": {
+                "parent_id": "settings",
+                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com/user_responsibilities",
+                "native_navigation": false,
+                "name": "User Responsibilities",
+                "is_collapse": false
+            }
+        },
+        {
+            "id": "settings-data-sources",
+            "attributes": {
+                "parent_id": "settings",
+                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com/subscriptions",
+                "native_navigation": false,
+                "name": "Data Sources",
+                "is_collapse": false
+            }
+        },
+        {
+            "id": "settings-business-units",
+            "attributes": {
+                "parent_id": "settings-attribute-configuration",
+                "name": "Business Units",
+                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com/business_units",
+                "native_navigation": false,
+                "is_collapse": false
+            }
+        },
+        {
+            "id": "settings-categories",
+            "attributes": {
+                "parent_id": "settings-attribute-configuration",
+                "name": "Categories",
+                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com/material_groups",
+                "native_navigation": false,
+                "is_collapse": false
+            }
+        },
+        {
+            "id": "settings-product-groups",
+            "attributes": {
+                "parent_id": "settings-attribute-configuration",
+                "name": "Product Groups",
+                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com/product_groups",
+                "native_navigation": false,
+                "is_collapse": false
+            }
+        },
+        {
+            "id": "settings-labels",
+            "attributes": {
+                "parent_id": "settings-attribute-configuration",
+                "name": "Labels",
+                "url": "https://rm-core-pr-16682-a5635a0ffb35.herokuapp.com/labels",
+                "native_navigation": false,
+                "is_collapse": false
+            }
         }
-      },
-      {
-        "type": "Product",
-        "id": "312lkajd1",
-        "attributes": {
-          "icon": "icon-ui-general-preview",
-          "name": "Product name 2",
-          "url": "https://product-url.domain.net/",
-          "navigation_url": "https://product-url-2.domain.net/navigation.json"
-        }
-      }
     ]
-  },
-  "product-navigation-items": {
-    "data": [
-      {
-        "type": "NavigationItem",
-        "id": "rr-risk-objects",
-        "attributes": {
-          "name": "Risk Objects",
-          "url": "/risk_objects/suppliers",
-          "iscollapse": false,
-          "parent_id": "null"
-        }
-      },
-      {
-        "type": "NavigationItem",
-        "id": "rr-risk-suppliers",
-        "attributes": {
-          "name": "Suppliers",
-          "url": "/risk_objects/suppliers",
-          "iscollapse": false,
-          "parent_id": "rr-risk-objects"
-        }
-      },
-      {
-        "type": "NavigationItem",
-        "id": "rr-risk-suppliers",
-        "attributes": {
-          "name": "Supply Chains",
-          "url": "/supply_chains",
-          "iscollapse": false,
-          "parent_id": "rr-risk-objects"
-        }
-      },
-      {
-        "type": "NavigationItem",
-        "id": "rr-risk-suppliers",
-        "attributes": {
-          "name": "Customers",
-          "url": "/risk_objects/debitors",
-          "iscollapse": false,
-          "parent_id": "rr-risk-objects"
-        }
-      },
-      {
-        "type": "NavigationItem",
-        "id": "rr-risk-suppliers",
-        "attributes": {
-          "name": "Locations",
-          "url": "/risk_objects/locations",
-          "iscollapse": false,
-          "parent_id": "rr-risk-objects"
-        }
-      }
-    ]
-  }
 }
